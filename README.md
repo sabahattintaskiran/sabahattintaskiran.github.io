@@ -1,1 +1,0 @@
-# sabahattintaskiran.github.io
