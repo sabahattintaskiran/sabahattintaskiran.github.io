@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bu İnternet Adresi Erişime Kapatılmıştır</title>
+<style>
+  @font-face { font-family:"Nexa"; src:url("Nexa-ExtraLight.ttf") format("truetype"); }
+  @font-face { font-family:"Nexa"; src:url("Nexa-Heavy.ttf") format("truetype"); font-weight:bold; }
+
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:100%;height:100%;}
+  body{
+    background-image:url("Background.jpg");
+    background-size:cover;
+    display:flex;align-items:center;justify-content:center;
+    font-family:"Nexa"; color:#fff;
+  }
+
+  main{ width:1200px; max-width:100%; padding:2vw; }
+  main>h1{
+    text-align:center;
+    margin-bottom:clamp(16px,1.8vw,28px);
+    font-size:clamp(22px,1.9vw,34px);
+  }
+  main>p{
+    text-align:justify;
+    font-size:clamp(15px,1.35vw,23px);
+    line-height:1.55;
+  }
+  main>p:nth-child(2){ margin-bottom:clamp(16px,1.8vw,28px); }
+
+  .logos{
+    display:flex; flex-wrap:nowrap;
+    justify-content:space-between; align-items:center;
+    margin-top:clamp(24px,6vw,64px);
+    gap:0;
+  }
+  .logos>img{ height:auto; display:block; object-fit:contain; }
+
+  .logo-mit   { width:180px; height:auto; }
+  .logo-sgb   { width:160px; height:auto; }
+  .logo-jgk   { width:160px; height:auto; }
+  .logo-masak { width:140px; height:auto; }
+
+  @media (max-width: 640px){
+    main{ padding: 6vw; }
+    main>h1{ font-size: clamp(20px,6vw,30px); margin-bottom: 5vw; }
+    main>p{ font-size: clamp(14px,3.4vw,20px); line-height: 1.6; }
+    main>p:nth-child(2){ margin-bottom: 5vw; }
+
+    .logos{ margin-top: 6vw; gap: 4vw; justify-content: space-between; }
+    .logo-mit   { max-height: 65px; width:auto; }
+	.logo-sgb	{ max-height: 57px; width:auto; }
+    .logo-jgk   { max-height: 57px; width:auto; }
+    .logo-masak { max-height: 55px; width:auto; }
+  }
+
+  @media (min-width: 2000px){
+    main{ max-width: 1600px; }
+    .logos{ gap:0; }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <h1>BU İNTERNET ADRESİ ERİŞİME KAPATILMIŞTIR</h1>
+
+    <p>Bu internet adresi, Türkiye Cumhuriyeti'nin ulusal güvenliğine yönelik yasa dışı siber faaliyetlerde bulunması nedeniyle Milli İstihbarat Teşkilatı (MİT), Siber Güvenlik Başkanlığı (SGB), Jandarma Genel Komutanlığı (JGK) ve Mali Suçları Araştırma Kurulu Başkanlığı (MASAK) tarafından yürütülen koordineli operasyonlar neticesinde ele geçirilmiş ve erişime kapatılmıştır.</p>
+
+    <p>Yasa dışı faaliyetlerde bulunan siber teröristlere karşı önleyici ve caydırıcı tedbirler kararlılıkla sürdürülecektir.</p>
+
+    <section class="logos">
+      <img class="logo-mit" src="M%C4%B0T.png" alt="Milli İstihbarat Teşkilatı">
+      <img class="logo-sgb" src="SGB.png" alt="Siber Güvenlik Başkanlığı">
+      <img class="logo-jgk" src="JGK.png" alt="Jandarma Genel Komutanlığı">
+      <img class="logo-masak" src="MASAK.png" alt="Mali Suçları Araştırma Kurulu">
+    </section>
+  </main>
+<script type="module" src="beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"804190fbf86c437599aae1c1fa24e847","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
